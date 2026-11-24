@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#172B4D"/>
+      <stop offset="1" stop-color="#3B6EF5"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="32" y1="30" x2="76" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="32" y1="30" x2="76" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7CF0BE"/>
+      <stop offset="1" stop-color="#2FCB87"/>
+    </linearGradient>
+  </defs>
+
+  <!-- nền -->
+  <rect width="108" height="108" fill="url(#bg)"/>
+  <circle cx="92" cy="14" r="40" fill="#FFFFFF" fill-opacity="0.08"/>
+  <circle cx="10" cy="104" r="30" fill="#FFFFFF" fill-opacity="0.05"/>
+
+  <g transform="translate(54 54) scale(1.1) translate(-54 -54)">
+  <!-- đồng xu kính -->
+  <circle cx="54" cy="54" r="26" fill="url(#glass)" stroke="url(#rim)" stroke-width="1.6"/>
+  <path d="M35.5 45 A20.5 20.5 0 0 1 45 35.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.65"
+        stroke-width="2" stroke-linecap="round"/>
+
+  <!-- 3 cột tăng dần: tăng trưởng tài chính -->
+  <rect x="41" y="56" width="6" height="10" rx="3" fill="#FFFFFF" fill-opacity="0.95"/>
+  <rect x="51" y="49" width="6" height="17" rx="3" fill="#FFFFFF" fill-opacity="0.95"/>
+  <rect x="61" y="41" width="6" height="25" rx="3" fill="url(#mint)"/>
+  </g>
+</svg>

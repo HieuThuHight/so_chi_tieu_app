@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Biểu tượng: đồng xu kính + 3 cột tăng dần (cột xanh mint = thu nhập / tăng trưởng). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="1.1"
+        android:scaleY="1.1">
+
+        <!-- đồng xu kính -->
+        <path
+            android:strokeWidth="1.6"
+            android:pathData="M28,54 a26,26 0 1,0 52,0 a26,26 0 1,0 -52,0 z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="32"
+                    android:startY="30"
+                    android:endX="76"
+                    android:endY="80">
+                    <item android:offset="0" android:color="#57FFFFFF" />
+                    <item android:offset="1" android:color="#14FFFFFF" />
+                </gradient>
+            </aapt:attr>
+            <aapt:attr name="android:strokeColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="32"
+                    android:startY="30"
+                    android:endX="76"
+                    android:endY="80">
+                    <item android:offset="0" android:color="#F2FFFFFF" />
+                    <item android:offset="1" android:color="#38FFFFFF" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- vệt sáng trên kính -->
+        <path
+            android:pathData="M35.5,45 A20.5,20.5 0 0 1 45,35.5"
+            android:strokeColor="#A6FFFFFF"
+            android:strokeWidth="2"
+            android:strokeLineCap="round" />
+
+        <!-- 3 cột tăng dần -->
+        <path
+            android:fillColor="#F2FFFFFF"
+            android:pathData="M41,59 a3,3 0 0 1 6,0 v4 a3,3 0 0 1 -6,0 z" />
+        <path
+            android:fillColor="#F2FFFFFF"
+            android:pathData="M51,52 a3,3 0 0 1 6,0 v11 a3,3 0 0 1 -6,0 z" />
+        <path android:pathData="M61,44 a3,3 0 0 1 6,0 v19 a3,3 0 0 1 -6,0 z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="0"
+                    android:startY="41"
+                    android:endX="0"
+                    android:endY="66">
+                    <item android:offset="0" android:color="#FF7CF0BE" />
+                    <item android:offset="1" android:color="#FF2FCB87" />
+                </gradient>
+            </aapt:attr>
+        </path>
+    </group>
+</vector>

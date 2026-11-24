@@ -1,0 +1,8 @@
+com.example.glassfinance.app-pngs-0 D:\code\project_android\GlassFinance-LiquidGlass\app\build\generated\res\pngs\debug
+com.example.glassfinance.app-updated_navigation_xml-1 D:\code\project_android\GlassFinance-LiquidGlass\app\build\generated\updated_navigation_xml\debug
+com.example.glassfinance.app-packageDebugResources-2 D:\code\project_android\GlassFinance-LiquidGlass\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.glassfinance.app-packageDebugResources-3 D:\code\project_android\GlassFinance-LiquidGlass\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.glassfinance.app-debug-4 D:\code\project_android\GlassFinance-LiquidGlass\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.glassfinance.app-debug-5 D:\code\project_android\GlassFinance-LiquidGlass\app\src\debug\res
+com.example.glassfinance.app-main-6 D:\code\project_android\GlassFinance-LiquidGlass\app\src\main\res
+gradleHome-0 C:\Users\Do Hieu\.gradle
